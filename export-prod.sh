@@ -10,5 +10,5 @@ time java $OPTS -jar $JAR \
   --mode export \
   --resource $PROD \
   --dir /cul/src/fcrepo-import-export/esmis-prod \
-  --user fedoraAdmin:fedoraAdmin \
+  --user CHANGEME:CHANGEME \
   -w ./export-prod.yml

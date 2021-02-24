@@ -10,5 +10,5 @@ time java $OPTS -jar $JAR \
   --mode export \
   --resource $STG \
   --dir /cul/src/fcrepo-import-export/esmis-stg \
-  --user fedoraAdmin:fedoraAdmin
+  --user CHANGEME:CHANGEME
   -w ./export-stg.yml
