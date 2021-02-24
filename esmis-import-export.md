@@ -19,7 +19,7 @@ allocation.
 **_Exporting_**
 The following is an example of an export script for exporting the int environment instance of a fedora
 repository
-
+```
 #!/bin/bash
 
 OPTS="-Dfcrepo.log.importexport=WARN -Xms2048M -Xmx2048M"
