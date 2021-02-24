@@ -19,3 +19,8 @@ esmis-dev/
 esmis-int/
 esmis-stg/
 esmis-prod/
+esmis-dev.yml
+esmis-int.yml
+esmis-stg.yml
+esmis-prod.yml
+
