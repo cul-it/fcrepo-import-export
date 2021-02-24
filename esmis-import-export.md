@@ -9,10 +9,13 @@ each environment (dev, integration, staging, production).  the directories are:
 * esmis-int
 * esmis-stg
 * esmis-prod
-The addition to the fcrepo-import-export project also include export and import scripts which the java
-class with the appropriate parameters.  Each script contains variables which define the location of 
-a repository for each environment and a OPTS variable that can be used to set the log level and memory
-allocation.
+
+The addition to the fcrepo-import-export project also includes export and import scripts which calls the java
+class with the appropriate parameters.
+
+Each script contains variables which define the location of a repository for each of the ESMIS environment,
+logging level, and memory allocation.
+
 -----------------------------------------------------------------------------------------------------
 
 **_Exporting_**
