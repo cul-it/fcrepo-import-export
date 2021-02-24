@@ -14,3 +14,8 @@ target/
 dependency-reduced-pom.xml
 *.log
 metadata.yml
+# 
+esmis-dev/
+esmis-int/
+esmis-stg/
+esmis-prod/
