@@ -9,7 +9,6 @@ each environment (dev, integration, staging, production).  the directories are:
 * esmis-int
 * esmis-stg
 * esmis-prod
-
 The addition to the fcrepo-import-export project also include export and import scripts which the java
 class with the appropriate parameters.  Each script contains variables which define the location of 
 a repository for each environment and a OPTS variable that can be used to set the log level and memory
@@ -17,6 +16,7 @@ allocation.
 -----------------------------------------------------------------------------------------------------
 
 **_Exporting_**
+
 The following is an example of an export script for exporting the int environment instance of a fedora
 repository
 ```
@@ -45,3 +45,10 @@ After defining a few variables the java jar file is executed, using the followin
 
 **_Importing_**
 
+The import scripts are similar to the export scripts but define paramaters as follows:
+* mode: import
+* resource: the URL for the fedora resource used for an import
+* dir: the directory to read contents of a previous export
+* map:  URL prefixes used to map one repository location to another
+* user:  login credentials for the repository
+* -w: write out the configuration to a yml file
